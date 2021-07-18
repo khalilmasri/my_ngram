@@ -1,15 +1,19 @@
 # my_ngram
 
 **SPECIFICATIONS**
+
 Write a program my_ngram; It will count the number of occurrences per character.
+#
 
 **NAME**
 
 my_ngram
+#
 
 **SYNOPSIS**
 
 my_ngram text [text2, text3]
+#
 
 **DESCRIPTION**
 
@@ -22,7 +26,7 @@ My Ngram will take 1 or multiple strings as arguments.
 It will display, one per line, each character and the numbers of times it appears.
 
 Order will be alphanumerical.
-
+#
 **Example 00**
 ```
 $>./my_ngram "abcdef"
@@ -49,10 +53,11 @@ b:3
 c:1
 $>
 ```
-
+#
 **AUTHORIZED FUNCTIONS**
 
 printf(3)
+
 write(2)
 
 You can NOT use:
